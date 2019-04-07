@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Form extends Component {
+class CreateTopic extends Component {
     render() {
         return(
             <div className="card">
@@ -28,4 +28,4 @@ class Form extends Component {
     }
 }
 
-export default Form;
+export default CreateTopic;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Form from './Form';
+import CreateTopic from './CreateTopic';
 
 class App extends Component {
     render() {
@@ -8,7 +8,7 @@ class App extends Component {
                 <section className="container mt-4">
                     <div className="row justify-content-center">
                         <div className="col-6">
-                            <Form/>
+                            <CreateTopic/>
                         </div>
                     </div>
                 </section>
