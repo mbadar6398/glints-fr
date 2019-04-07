@@ -1,0 +1,58 @@
+.card{
+    background : rgb(255, 255, 255);
+    border-radius:5px;
+
+    &__header{
+        background: #ff5b5b;
+        padding : 12px 16px;
+        border-top-left-radius:5px;
+        border-top-right-radius:5px;
+        border-bottom: solid 1px #cccccc;
+
+        &__title{
+            color: #ffffff;
+            font-size: 14px;
+            margin:0;
+            font-weight: 500;
+        }
+
+    }
+
+    &__body{
+        padding : 16px 16px;
+    }
+
+    &__footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        background: rgb(255, 255, 255);
+        padding : 12px 16px;
+        border-bottom-left-radius:5px;
+        border-bottom-right-radius:5px;
+        border-top: solid 1px #cccccc;
+
+        &__maxchar{
+            
+            >p{
+                margin:0;
+                font-size: 14px;
+                color: grey;
+            }
+
+        }
+
+        &__btn-group{
+            
+            >button{
+
+                &:last-child{
+                    margin-right:0px;
+                }
+            }
+        }
+
+    }
+
+}
