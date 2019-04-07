@@ -8,16 +8,21 @@ class Form extends Component {
                     <h4 className="card__header__title">Create Topic</h4>
                 </div>
                 <div className="card__body">
-                    <textarea maxLength="255" placeholder="Write something..."></textarea>
+                    <div className="input-wrapper">
+                        <input type="text" id="title" placeholder="Title..."/>
+                    </div>
+                    <div className="input-wrapper">
+                        <textarea id="body" maxLength="255" placeholder="Write something..."></textarea>
+                    </div>
                 </div>
                 <div className="card__footer">
-                <div className="card__footer__maxchar">
-                    <p><span>255</span> Characters left</p>
+                    <div className="card__footer__maxchar">
+                        <p><span>255</span> Characters left</p>
+                    </div>
+                    <div className="card__footer__btn-group">
+                        <button id="submit" className="btn btn--danger">Post Topic</button>
+                    </div>
                 </div>
-                <div className="card__footer__btn-group">
-                    <button className="btn btn--danger">Submit</button>
-                </div>
-            </div>
             </div>
         )
     }
