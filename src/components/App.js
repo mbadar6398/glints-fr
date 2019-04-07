@@ -8,14 +8,14 @@ class App extends Component {
             <main>
                 <section className="container">
                     <div className="row justify-content-center">
-                        <div className="col-6">
+                        <div className="col-12 col-md-8 col-lg-6">
                             <CreateTopic/>
                         </div>
                     </div>
                 </section>
                 <section className="container">
                     <div className="row justify-content-center">
-                        <div className="col-6">
+                        <div className="col-12 col-md-8 col-lg-6">
                             <Topic/>
                         </div>
                     </div>
