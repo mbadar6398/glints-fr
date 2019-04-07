@@ -16,7 +16,7 @@ class CreateTopic extends Component {
                     </div>
                 </div>
                 <div className="card__footer">
-                    <div className="card__footer__maxchar">
+                    <div className="card__footer__text">
                         <p><span>255</span> Characters left</p>
                     </div>
                     <div className="card__footer__btn-group">
